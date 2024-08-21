@@ -1,18 +1,16 @@
-package com.bhardwaj.karan.Assignment.Service.impl;
+package com.bhardwaj.karan.Assignment.service.impl;
 
 
-import com.bhardwaj.karan.Assignment.Entity.ManufacturingProcess;
-import com.bhardwaj.karan.Assignment.Entity.NatureOfBusiness;
-import com.bhardwaj.karan.Assignment.Entity.Supplier;
-import com.bhardwaj.karan.Assignment.Exception.SupplierNotFoundException;
-import com.bhardwaj.karan.Assignment.Repository.SupplierRepository;
-import com.bhardwaj.karan.Assignment.Service.SupplierService;
+import com.bhardwaj.karan.Assignment.entity.ManufacturingProcess;
+import com.bhardwaj.karan.Assignment.entity.NatureOfBusiness;
+import com.bhardwaj.karan.Assignment.entity.Supplier;
+import com.bhardwaj.karan.Assignment.exception.SupplierNotFoundException;
+import com.bhardwaj.karan.Assignment.repository.SupplierRepository;
+import com.bhardwaj.karan.Assignment.service.SupplierService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class SupplierServiceImpl implements SupplierService {

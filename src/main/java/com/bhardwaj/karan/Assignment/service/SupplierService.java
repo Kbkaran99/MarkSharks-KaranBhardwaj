@@ -1,11 +1,9 @@
-package com.bhardwaj.karan.Assignment.Service;
+package com.bhardwaj.karan.Assignment.service;
 
-import com.bhardwaj.karan.Assignment.Entity.ManufacturingProcess;
-import com.bhardwaj.karan.Assignment.Entity.NatureOfBusiness;
-import com.bhardwaj.karan.Assignment.Entity.Supplier;
+import com.bhardwaj.karan.Assignment.entity.ManufacturingProcess;
+import com.bhardwaj.karan.Assignment.entity.NatureOfBusiness;
+import com.bhardwaj.karan.Assignment.entity.Supplier;
 import org.springframework.data.domain.Page;
-
-import java.util.List;
 
 public interface SupplierService {
 

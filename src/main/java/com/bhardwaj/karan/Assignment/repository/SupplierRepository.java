@@ -1,16 +1,13 @@
-package com.bhardwaj.karan.Assignment.Repository;
+package com.bhardwaj.karan.Assignment.repository;
 
-import com.bhardwaj.karan.Assignment.Entity.ManufacturingProcess;
-import com.bhardwaj.karan.Assignment.Entity.NatureOfBusiness;
-import com.bhardwaj.karan.Assignment.Entity.Supplier;
+import com.bhardwaj.karan.Assignment.entity.ManufacturingProcess;
+import com.bhardwaj.karan.Assignment.entity.NatureOfBusiness;
+import com.bhardwaj.karan.Assignment.entity.Supplier;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-
-
-import java.util.List;
 
 public interface SupplierRepository extends JpaRepository<Supplier, Long> {
 

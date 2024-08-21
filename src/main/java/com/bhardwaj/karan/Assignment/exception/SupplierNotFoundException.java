@@ -1,4 +1,4 @@
-package com.bhardwaj.karan.Assignment.Exception;
+package com.bhardwaj.karan.Assignment.exception;
 
 public class SupplierNotFoundException extends RuntimeException {
 

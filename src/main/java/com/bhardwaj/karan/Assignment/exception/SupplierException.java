@@ -1,4 +1,4 @@
-package com.bhardwaj.karan.Assignment.Exception;
+package com.bhardwaj.karan.Assignment.exception;
 
 import org.springframework.http.HttpStatus;
 

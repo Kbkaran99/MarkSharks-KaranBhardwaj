@@ -28,3 +28,5 @@ curl --location --request GET 'http://localhost:8080/api/supplier/query?location
 2. Input Sanitization: Ensure that all input is sanitized to prevent SQL injection and other attacks - **Optimized SQL query created**
 3. Authentication/Authorization: Implement JWT-based authentication to protect sensitive data - **TO DO**
 4. Error Handling: Avoid exposing stack traces in production by customizing error responses - **Centralized Exception Handlers Support Added**
+5. Api Documentation: **Swagger Support added using OpenAPI**
+   http://localhost:8080/swagger-ui/index.html#/

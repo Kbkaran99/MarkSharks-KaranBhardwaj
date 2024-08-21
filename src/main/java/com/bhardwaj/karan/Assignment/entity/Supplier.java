@@ -1,4 +1,4 @@
-package com.bhardwaj.karan.Assignment.Entity;
+package com.bhardwaj.karan.Assignment.entity;
 import jakarta.persistence.*;
 import java.util.Set;
 

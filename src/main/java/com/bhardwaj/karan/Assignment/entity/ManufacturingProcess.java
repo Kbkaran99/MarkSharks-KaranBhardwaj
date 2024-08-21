@@ -1,4 +1,4 @@
-package com.bhardwaj.karan.Assignment.Entity;
+package com.bhardwaj.karan.Assignment.entity;
 
 public enum ManufacturingProcess {
 
